@@ -71,23 +71,23 @@ nav a{
 .destinations{
     display:flex;
     justify-content:center;
-    gap:30px; /* zmniejszony odstęp między obrazkami */
-    margin-top:20px; /* zmniejszony margines górny */
+    gap:30px; /* odstęp między obrazkami */
+    margin-top:20px; /* margines górny */
 }
 
 .destination{
-    width:150px; /* zmniejszona szerokość */
+    width:225px; /* zdjęcia o połowę większe */
 }
 
 .destination img{
     width:100%;
-    height:120px; /* zmniejszona wysokość */
+    height:180px; /* zdjęcia o połowę większe */
     object-fit:cover;
 }
 
 .destination h3{
-    margin-top:10px; /* nieco mniejszy margines */
-    font-size:22px; /* zmniejszony rozmiar nagłówka */
+    margin-top:12px; /* lekko większy margines */
+    font-size:26px; /* większa czcionka przy zdjęciach */
 }
 
 .services{
